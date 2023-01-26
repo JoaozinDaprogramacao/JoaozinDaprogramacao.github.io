@@ -1,0 +1,73 @@
+.menu {
+    background-image: linear-gradient(485deg , #FA8072, #ff6655);
+    width: 350px;
+    height: 1280px;
+}
+
+
+#fotoPerfil {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: auto;
+    padding-top: 20px;
+}
+.profile, .interest, .tec {
+    margin-left: 84px;
+}
+
+.profile p {
+    margin-top: 10px;
+}
+
+.tituloConteudo {
+    background-color: #CD5C5C;
+    width: 250px;
+    padding: 8px;
+    margin-top: 20px;
+
+}
+
+.tituloConteudo h2 {
+    font-size: 1.5em;
+    color: #FA8072;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.conteudoTec p {
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 1.2em;
+    color: #333333;
+    padding-right: 20px;
+}
+
+.bola {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+     margin-right: 5px;
+    border-radius: 5px;
+    background-color: #CD5C5C;
+}
+.conteudoTec:last-child .bola:last-child {
+    background-color: #f79191;
+}
+
+.interesseConteudo {
+    line-height: 20px;
+}
+
+.interesseConteudo img{
+    display: inline-block;
+    width: 80px;
+    height: auto;
+}
+ .interesseConteudo p {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+ }
