@@ -1,7 +1,11 @@
 .menu {
     background-image: linear-gradient(485deg , #FA8072, #ff6655);
     width: 350px;
-    height: 1280px;
+    height: 710px;
+}
+
+.conteudo {
+    padding: 20px 0px;
 }
 
 
@@ -11,7 +15,6 @@
     height: 200px;
     border-radius: 100px;
     margin: auto;
-    padding-top: 20px;
 }
 .profile, .interest, .tec {
     margin-left: 84px;
@@ -19,6 +22,9 @@
 
 .profile p {
     margin-top: 10px;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(31, 31, 31);
 }
 
 .tituloConteudo {
@@ -43,13 +49,14 @@
     font-size: 1.2em;
     color: #333333;
     padding-right: 20px;
+    
 }
 
 .bola {
     display: inline-block;
     width: 10px;
     height: 10px;
-     margin-right: 5px;
+    margin-right: 5px;
     border-radius: 5px;
     background-color: #CD5C5C;
 }
@@ -57,8 +64,37 @@
     background-color: #f79191;
 }
 
-.interesseConteudo {
-    line-height: 20px;
+#interesseProgramacao, #interesseCafe, #interesseTec {
+    background-repeat: no-repeat;
+}
+
+#interesseProgramacao {
+    background-image: url(../imgs/imgProgramacao_resized.png);
+}
+
+#interesseCafe {
+    background-image: url(../imgs/imgCafe_resized.png);
+}
+#interesseTec {
+    background-image: url(../imgs/imgTec_resized.png);
+}
+
+a {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: normal;
+    height: 33px;
+    padding: 12px 0px 0px 80px;
+    position: relative;
+    background-image: none;
+    border-radius: 0px;
+    color: #000;
+    transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -webkit-transition: all .5s ease;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .interesseConteudo img{
@@ -68,6 +104,13 @@
 }
  .interesseConteudo p {
     display: inline-block;
-    vertical-align: middle;
-    line-height: 1.5;
+    
+ }
+
+.pInteresse {
+    display: inline-block;
+    position: relative;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
  }
