@@ -1,0 +1,189 @@
+.fundo-claro {
+    background-color: #f1dddd;
+    transition: .5ms;
+}
+
+.fundo-escuro {
+    background-color: #000000;
+    transition: .5ms;
+}
+
+
+.icone {
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 50px;
+    height: 50px;
+    transition: .4s;
+}
+
+.icone:hover {
+    width: 55px;
+    height: 55px;
+    transition: .4s;
+}
+
+.switch-container {
+  position: absolute;
+  top: 15px; 
+  right: 15px;
+  z-index: 9999;
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+.switch input {
+    display: none;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    transition: .4s;
+    border-radius: 34px;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-image: url(../imgs/luzIcon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: .4s;
+    border-radius: 50%;
+}
+  
+input:checked + .slider:before {
+   background-image: url(../imgs/sompraicon.png);
+}
+
+input:checked + .slider {
+    background-color: #f3a45a;
+}
+  
+  
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+
+.biju-cards {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7d7f81;
+    width: 250px;
+    height: 450px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.card:hover {
+    width: 275px;
+    height: 475px;
+    transition: .4s;
+}
+
+.card .title-card-container {
+    padding-top: 10px;
+}
+
+.card .title-card {
+    width: 80%;
+    padding: 10px 30px 10px 30px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.card .title-card span {
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.card img {
+    height: 200px;
+}
+
+.card .habilidade-atual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250;
+    height: 40px;
+    max-height: 40px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+} 
+
+.card .azul {
+    background-image: linear-gradient(2deg, #30eeee, #36e7e7);
+}
+
+.card .verde {
+    background-image: linear-gradient(2deg, #abee30, #86e736);
+}
+
+.card .amarelo {
+    background-image: linear-gradient(2deg, #eeeb30, #e7db36);
+}
+
+.card .cinza {
+    background-image: linear-gradient(2deg, #b8b4b4, #969696);
+}
+
+.card .habilidade-atual p{
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.card .descricao {
+    height: 200px;
+    text-transform: capitalize;
+    max-width: 220px;
+    max-height: 100px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 5px;
+    padding-bottom: 15px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+
+  
