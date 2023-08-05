@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     padding: 0px;
     border: 0px;
-    margin: 0px;
+    margin: -20px;
     width: 98vw;
 }
 
@@ -17,5 +17,22 @@ header {
     background-color: #729b798e;
     height: 34px;
     width: 100%;
-    padding: 15px;
+    padding: 30px;
+}
+
+header>a>img,
+.user-container a img {
+    transition: 2ms;
+    width: 110%;
+    height: 170%;
+}
+header>div{
+    display: flex;
+    flex-direction: column;
+}
+
+header>div>a {
+    color: #ffffff;
+    text-decoration: solid;
+    font-weight: 800;
 }
