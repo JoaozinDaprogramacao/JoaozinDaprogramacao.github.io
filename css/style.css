@@ -8,7 +8,9 @@ body {
     padding: 0px;
     border: 0px;
     margin: 0px;
+    overflow: hidden;
     width: 98vw;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -18,4 +20,15 @@ header {
     height: 34px;
     width: 100%;
     padding: 15px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #729b798e;
+    height: 34px;
+    width: 100%;
+    padding: 15px;
+    font-size: .688rem;
 }
