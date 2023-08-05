@@ -19,7 +19,8 @@ img {
   vertical-align: middle;
 }
 
-ol, ul {
+ol, ul, a{
+  text-decoration: none;
   list-style: none;
 }
 
