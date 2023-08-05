@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    background-color: #3d3636;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    width: 98vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #729b798e;
+    height: 34px;
+    width: 100%;
+    padding: 15px;
+}
