@@ -1,8 +1,27 @@
-@media screen and (width: 390px) and (height: 844px) {
+@media screen and (min-width: 320px){
+
+    header>a>img,
+    img {
+        transition: 2ms;
+        width: 70%;
+        height: 120%;
+    }
+
+    header>div>a {
+        color: #ffffff;
+        text-decoration: solid;
+        font-weight: 800;
+        font-size: 0.8em;
+    }
+
     .apresentacao {
         display: flex;
         flex-direction: column;
         height: auto;
+    }
+
+    .apresentacao>div {
+        margin: auto;
     }
 
     .apresentacao>div {
@@ -12,7 +31,7 @@
     .texto-apresentacao h1 {
         width: 100%;
         color: #99BF8F;
-        font-size: 30px;
+        font-size: 33px;
         font-style: normal;
         line-height: normal;
         text-align: left;
@@ -26,13 +45,14 @@
 
     .texto-apresentacao a div {
         width: 90%;
+        margin-bottom: 50px;
     }
 
     .texto-apresentacao a div p {
         font-size: 0.8em;
     }
 
-    .fotos { 
+    .fotos {
         position: inherit;
     }
 
@@ -46,17 +66,63 @@
         width: 100%;
     }
 
+    .fotos div h3 {
+        text-align: center;
+    }
+
+    .titulo-renovavel {
+        margin-left: 8px;
+    }
+
+
+    .zap {
+        position: fixed;
+        display: inline-block;
+        bottom: 100px;
+        right: 15px;
+    }
+
     .conteudo-sessao-2 {
-        display: flex;
-        flex-direction: column;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .conteudo-sessao-2>div {
+        margin: 0 auto;
+    }
+
+    .conteudo-sessao-2>div>div {
+        padding: 0;
+        display: block;
     }
 
     .conteudo-sessao-2>div>div>img {
-        width: 250px;
+        width: 150px;
         border-radius: 30px;
+        margin-top: 10px;
+        margin-left: 15px;
     }
-    
+
     .conteudo-sessao-2>div>div>div {
-        width: 100px;
+        width: 170px;
+    }
+
+    .conteudo-sessao-2>div>div>div>h4 {
+        font-size: 1em;
+        margin-top: 5px;
+    }
+
+    .conteudo-sessao-2>div>div>div>p {
+        font-size: 0.8em;
+        margin-top: 5px;
+    }
+
+    footer {
+        font-size: 0.5em;
+    }
+
+    footer p {
+        padding: 0 30px;
     }
 }
