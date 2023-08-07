@@ -1,192 +1,62 @@
-@media (max-width: 1033px) {
+@media screen and (width: 390px) and (height: 844px) {
     .apresentacao {
-        width: 60%;
-        height: 100vh;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        height: auto;
     }
 
-    .texto-apresentacao {
-        margin-bottom: 70px;
+    .apresentacao>div {
+        width: 225px
     }
 
-    .texto-apresentacao,
-    .texto-apresentacao a {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .texto-apresentacao h1 {
+        width: 100%;
+        color: #99BF8F;
+        font-size: 30px;
+        font-style: normal;
+        line-height: normal;
+        text-align: left;
     }
 
-    .texto-apresentacao h1,
-    h2 {
-        text-align: center;
+    .texto-apresentacao h2 {
+        width: 100%;
+        text-align: left;
+        font-size: 20px;
     }
 
-    .texto-apresentacao a>div {
-        width: 50%;
+    .texto-apresentacao a div {
+        width: 90%;
     }
 
-    .fotos {
+    .texto-apresentacao a div p {
+        font-size: 0.8em;
+    }
+
+    .fotos { 
         position: inherit;
-        margin-right: 200px;
     }
 
-    .sessao-2 {
-        width: 70%;
-        height: 140vh;
+    .fotos div {
+        display: block;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .fotos div img {
+        width: 100%;
     }
 
     .conteudo-sessao-2 {
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
-        padding-right: 60px;
-    }
-
-    footer p {
-        width: 100px;
-        padding: 0 40px;
-    }
-}
-
-@media (max-width: 688px) {
-
-    .apresentacao {
-        width: 40%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .sessao-2 {
-        width: 50%;
-        height: 110vh;
-    }
-}
-
-@media (max-width: 414px) {
-
-    .apresentacao {
-        width: 19%;
-        height: 500px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .texto-apresentacao h1 {
-        font-size: 2em;
-        text-align: left;
-        width: 300px;
-    }
-
-    .texto-apresentacao h2 {
-        font-size: 1em;
-        width: 300px;
-        text-align: left;
-    }
-
-    .texto-apresentacao a {
-        margin-right: 20px;
-    }
-
-    .texto-apresentacao a>div {
-        width: 250px;
-    }
-
-    .fotos>div {
-        width: 180px;
-        display: flex;
-        align-items: center;
-    }
-
-    .fotos>div>img {
-        width: 150px;
-        border-radius: 30px;
-        margin: 20px;
-    }
-
-    .sessao-2 {
-        width: 30%;
-        height: auto;
-    }
-
-    .sessao-2 h2 {
-        margin: 50px;
-        font-size: 1.5em;
-    }
-
-    .conteudo-sessao-2>div>div {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .conteudo-sessao-2>div>div {
-        width: 150px;
     }
 
     .conteudo-sessao-2>div>div>img {
-        width: 300px;
-        border-radius: 30px;
-        margin: 5px;
-    }
-
-    .conteudo-sessao-2>div>div>div>p, .conteudo-sessao-2>div>div>div>h4 {
-        text-align: left;
-    }
-
-    footer {
-        font-size: 0.5em;
-    }
-
-}
-
-@media (max-width: 300px) {
-
-    .apresentacao {
-        width: 19%;
-        height: 1000px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .texto-apresentacao h1 {
-        font-size: 2em;
-        text-align: left;
-        width: 300px;
-    }
-
-    .texto-apresentacao h2 {
-        font-size: 1em;
-        width: 300px;
-        text-align: left;
-    }
-
-    .texto-apresentacao a {
-        margin-right: 20px;
-    }
-
-    .texto-apresentacao a>div {
         width: 250px;
-        background-color: red;
-    }
-
-    .fotos>div {
-        width: 180px;
-        display: flex;
-        align-items: center;
-    }
-
-    .fotos>div>img {
-        width: 150px;
         border-radius: 30px;
-        margin: 20px;
+    }
+    
+    .conteudo-sessao-2>div>div>div {
+        width: 100px;
     }
 }

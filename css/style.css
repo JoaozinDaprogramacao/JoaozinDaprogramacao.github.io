@@ -1,17 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Montserrat:wght@700&display=swap');
 
 body {
-    display: flex;
     background-color: #3d3636;
     color: #ffffff;
     font-family: Arial, sans-serif;
-    justify-content: center;
-    flex-direction: column;
     padding: 0px;
+    margin: 0;
     border: 0px;
-    margin: -19px;
-    width: 100vw;
-    overflow-x: hidden;
+    width: auto;
+    min-height: 100vh;
 }
 
 header {
@@ -19,7 +16,6 @@ header {
     justify-content: space-between;
     background-color: #729b798e;
     height: 34px;
-    width: 100%;
     padding: 30px;
     padding-right: 0px;
 }
@@ -48,7 +44,6 @@ main {
     flex-direction: column;
     flex: 1;
     position: relative;
-    width: 1450px;
 }
 
 .apresentacao {
@@ -57,7 +52,7 @@ main {
     padding: 80px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: vw;
     height: 61vh;
     background-image: url('../imagens/sistemas/bg/backgruound.png');
     background-repeat: no-repeat;
@@ -266,9 +261,9 @@ footer {
     justify-content: space-between;
     background-color: #729b798e;
     height: 34px;
-    width: 100%;
     font-size: .688rem;
     padding: 30px;
+    position: sticky;
 }
 
 footer p {
