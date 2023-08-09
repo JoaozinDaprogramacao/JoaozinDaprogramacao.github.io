@@ -89,6 +89,7 @@ main {
     border-radius: 50px;
     opacity: 1;
     font-weight: 700;
+    box-shadow: 2px 2px 5px #000;
 }
 
 .texto-apresentacao>a>div>p {
@@ -122,6 +123,7 @@ main {
     width: 350px;
     border-radius: 30px;
     margin: 20px;
+    box-shadow: 1px 1px 12px #000;
 }
 
 .fotos>div>h3 {
@@ -228,6 +230,7 @@ main {
 .conteudo-sessao-2>div>div>img {
     width: 350px;
     border-radius: 30px;
+    box-shadow: 1px 1px 12px #000;
 }
 
 .conteudo-sessao-2>div>div>div {

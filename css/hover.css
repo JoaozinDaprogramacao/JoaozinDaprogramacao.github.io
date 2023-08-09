@@ -1,0 +1,24 @@
+.button-zap {
+    transition: transform 0.3s ease;
+}
+
+.button-zap:hover {
+    transform: scale(1.010);
+    box-shadow: 3px 2px 5px #000;
+}
+
+.imagem-sessao{
+    transition: transform 0.3s ease;
+}
+
+.imagem-sessao:hover{
+    transform: scale(1.03);
+}
+
+.img-whats{
+    transition: transform 0.3s ease;
+}
+
+.img-whats:hover{
+    transform: scale(1.07);
+}
