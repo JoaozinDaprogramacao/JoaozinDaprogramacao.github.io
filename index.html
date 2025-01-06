@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Princesa ❤️</title>
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap'>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Tela de bloqueio */
+        .lock-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #ff4d4d;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .lock-screen h1 {
+            font-family: 'Homemade Apple', cursive;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .lock-screen input[type="password"] {
+            font-size: 1.2rem;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            width: 80%;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .lock-screen button {
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: white;
+            color: #ff4d4d;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .lock-screen button:hover {
+            background-color: #ffe5e5;
+        }
+
+        /* Esconde o conteúdo principal até a senha ser inserida */
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+     <!-- Tela de Bloqueio -->
+     <div class="lock-screen">
+        <h1>Digite a senha para continuar ❤️</h1>
+        <p style="font-size: 2.4rem; color: black;">Dica...: 3 dígitos secretos</p>
+        <input type="password" id="password" placeholder="Digite a senha">
+        <button onclick="unlockScreen()">Entrar</button>
+    </div>
+
+    <!-- Developed by Saravanan  -->
+    <div class="paper heart">
+    </div>
+    <div class="paper image">
+        <p> EU AMO VOCÊ</p>
+        <p>E meu amor é muito maior</p>
+        <p> do que o</p>
+        <p> significado da frase! 😍 </p>
+        <img src="imgs/img-2.jpg" />
+    </div>
+    <div class="paper image">
+        <p></p>
+            <img src="imgs/img-3.jpg" />
+    </div>
+    <div class="paper image">
+        <p>Por isso que </p>
+        <p> digo ❤️ </p>
+        <img src="imgs/img-1.jpg" />
+    </div>
+    <div class="paper red">
+        <p class="p2">mas a mulher que tanto rezei para ter ao meu lado, na verdade já estava comigo á um bom tempo</p>
+    </div>
+    <div class="paper red">
+        <p class="p1">Eu me emociono ao lembrar de você, a ficha não caiu</p>
+    </div>
+    <div class="paper red">
+        <p class="p1">(Sim eu estou dormindo na sala denovo.... kskskksks)</p>
+    </div>
+    <div class="paper red">
+        <p class="p1">Assim como você chorou olhando para as flores</p>
+        <p class="p2">nessa madrugada, em meio ao escuro da minha sala</p>
+    </div>
+    <div class="paper">
+        <p class="p1">Você é a pessoa que eu mais </p>
+        <p class="p1">amo nesse mundo <span style="color: red !important;">❤️</span></p>
+    </div>
+    <div class="paper">
+        <p class="p1">Arraste para os papeis se moverem!</p>
+    </div>
+    <!-- javascript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
